@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/img/illustrasi-login.png";
+import photo from "../assets/img/Illustrasi-login.png";
 import logo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ const AuthLayouts = ({ title, children, type }) => {
           <Navigation type={type} />
         </section>
       </div>
-      <div className="hidden lg:block lg:w-[45%] h-full bg-blue-400">
+      <div className="hidden lg:block lg:w-[45%] h-full">
         <img src={photo} alt="Illustrasi Login" className="w-full h-full" />
       </div>
     </div>
