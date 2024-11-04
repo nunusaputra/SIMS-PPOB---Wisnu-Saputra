@@ -1,6 +1,6 @@
 import React from "react";
 import photo from "../assets/img/Illustrasi-Login.png";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/Logo.png";
 import { Link } from "react-router-dom";
 
 const AuthLayouts = ({ title, children, type }) => {
